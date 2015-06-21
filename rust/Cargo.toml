@@ -1,0 +1,11 @@
+[package]
+name = "rust"
+version = "0.1.0"
+authors = ["Josh Terrell <joshterrell805@gmail.com>"]
+
+[dependencies.rblas]
+git = "https://github.com/mikkyang/rust-blas.git"
+
+[dependencies]
+rand = "*"
+time = "*"
